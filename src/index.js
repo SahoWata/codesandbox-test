@@ -27,13 +27,13 @@
 
 //constで定義したオブジェクトはプロパティの変更が可能
 // const val4 = {
-//   name: "じゃけぇ",
+//   name: "とまと",
 //   age: 28,
 // };
 
 // val4.name = "jack";
 
-// val4.address = "Hiroshima";
+// val4.address = "Tokyo";
 // console.log(val4);
 
 //constで定義した配列はプロパティの変更が可能
@@ -41,3 +41,18 @@
 // val5[0] = 'bird';
 // val5.push("monkey");
 // console.log(val5);
+
+/**
+ * テンプレート文字列
+ */
+// const name = "とまと";
+// const age = 28;
+// //私の名前はとまとです。年齢は28歳です。
+
+// //従来の方法
+// const message1 = "私の名前は" + name +"です。年齢は" + age +"歳です。";
+// console.log(message1);
+
+// //テンプレート文字列を用いた方法
+// const message2 = `私の名前は${name}です。年齢は${age}です。`;
+// console.log(message2);
