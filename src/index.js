@@ -85,3 +85,40 @@
 // //もしくは
 // const func3 =(num1,num2) =>num1 +num2;
 // console.log(func3(10,20));
+
+/**
+ * 分割代入
+ */
+// const myProfile = {
+//   name: "とまと",
+//   age: 28,
+// };
+
+// const message1 = `私の名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`;
+// console.log(message1);
+
+// const {name, age} = myProfile;
+
+// const message2 = `私の名前は${name}です。年齢は${age}歳です。`;
+// console.log(message2);
+
+// const myProfile = ["とまと",28];
+
+// const message3 = `私の名前は${myProfile[0]}です。年齢は${myProfile[1]}歳です。`;
+// console.log(message3);
+
+// const [name, age] = myProfile;
+// const message4 = `俺の名前は${name}だ。年齢は${age}だ！`;
+// console.log(message4);
+
+/**
+ * デフォルト値、引数など
+ */
+//nameの初期設定で「ゲスト」と入力しておく
+// const sayHello = (name = "ゲスト") => console.log(`こんにちは！${name}さん！`);
+// sayHello("すいか");
+// sayHello();
+
+/**
+ * スプレッド構文 ...
+ */
