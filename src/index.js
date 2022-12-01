@@ -208,10 +208,10 @@
 // console.log(fee); //100
 
 //&&は左側がtrueなら右側を返す
-const num2 = 100;
-const fee2 = num2 && "何か設定されました";
-console.log(fee2); //何か設定されました　右側が返却される
+// const num2 = 100;
+// const fee2 = num2 && "何か設定されました";
+// console.log(fee2); //何か設定されました　右側が返却される
 
-const num3 = null;
-const fee3 = num3 && "何か設定されました";
-console.log(fee3); //null　左側がそのまま返却される
+// const num3 = null;
+// const fee3 = num3 && "何か設定されました";
+// console.log(fee3); //null　左側がそのまま返却される
