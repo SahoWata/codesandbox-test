@@ -160,3 +160,22 @@
 // arr8[0] = 100;
 // console.log(arr8); //100,20
 // console.log(arr4); //100,20 arr4の値も変わってしまう
+
+/**
+ * 三項演算子
+ */
+//ある条件? 条件がtureの時 : 条件がfalseの時
+// const val1 = 1 > 0 ? "tureです" : "falseです";
+// console.log(val1); //tureです
+
+//const num = 1300;
+//console.log(num.toLocaleString()); //1,300
+
+// const num = "1300";
+// const formattedNum = typeof num === "number" ? num.toLocaleString() : "数値を入力してください" ;
+// console.log(formattedNum); //数値を入力してください
+
+// const checkSum = (num1,num2) => {
+//   return num1 + num2 > 100 ? "100を超えています！！" : "許容範囲内です" ;
+// };
+// console.log(checkSum(40,90)); //100を超えています！！
