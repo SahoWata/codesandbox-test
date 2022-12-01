@@ -179,3 +179,39 @@
 //   return num1 + num2 > 100 ? "100を超えています！！" : "許容範囲内です" ;
 // };
 // console.log(checkSum(40,90)); //100を超えています！！
+
+/**
+ * 論理演算子の本当の意味を知ろう && ||
+ */
+//従来の意味（または、かつ）
+// const flag1 = true;
+// const flag2 = false;
+
+// if (flag1 || flag2) {
+//   console.log("1か2はtrueになります");
+// };
+// //flag1がtrueなので出力される
+
+// if (flag1 && flag2) {
+//   console.log("１も2もtrueになります");
+// };
+// //flag2がfalseなので出力されない
+
+// const num = null;
+// const fee = num || "金額未設定です";
+// console.log(fee); //金額未設定です
+
+//本当の||の意味は、左側がfalseの時、右側を返す
+//左側がtrueのとき、左側を返す
+// const num = 100;
+// const fee = num || "金額未設定です";
+// console.log(fee); //100
+
+//&&は左側がtrueなら右側を返す
+const num2 = 100;
+const fee2 = num2 && "何か設定されました";
+console.log(fee2); //何か設定されました　右側が返却される
+
+const num3 = null;
+const fee3 = num3 && "何か設定されました";
+console.log(fee3); //null　左側がそのまま返却される
